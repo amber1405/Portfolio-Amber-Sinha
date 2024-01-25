@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const HeroBgAnimation = () => (
   <div className="w-[600px] h-[500px]">

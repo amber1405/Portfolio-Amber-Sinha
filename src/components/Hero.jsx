@@ -4,12 +4,12 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <div className="mx-10 flex justify-center relative z-10 p-24 ">
+    <div className="m-16 flex justify-center relative px-20 py-8 z-10">
       <div className="absolute flex justify-end overflow-hidden px-0 py-8 max-w-m transform translate-x-2/3 -translate-y-16 lg:justify-center lg:p-0">
         <HeroBgAnimation />
       </div>
       <div className="flex items-center w-full text-slate-100">
-        <div className="-my-64">
+        <div className="">
           <div className="font-bold text-6xl ">
             Hi, I am <br /> {Bio.name}
           </div>
@@ -25,14 +25,14 @@ const Hero = () => {
               />
             </span>
           </div>
-          <div className="w-2/3 text-xl font-semibold mb-10 leading-10 text-[#838894] lg">
+          <div className="w-2/3 text-xl font-semibold mb-10 leading-10 text-[#838894] ">
             {Bio.description}
           </div>
-          <button className="h-14 w-60 max-w-80 text-center px-4 py-0 rounded-full cursor-pointer text-2xl font-semibold bg-gradient-to-br from-[#8400ff] to-[#e600ff] hover:scale-105 hover:duration-500 hover:transition-all duration-500 hover:ease-in-out hover:brightness-100">
+          <button className="h-16 w-64 max-w-80 text-center px-4 py-0 rounded-3xl cursor-pointer text-2xl font-semibold bg-gradient-to-br from-[#8400ff] to-[#e600ff] hover:scale-105 hover:duration-500 hover:transition-all duration-500 hover:ease-in-out hover:brightness-100">
             Check Resume
           </button>
         </div>
-        <div className="w-full flex order-2 justify-end gap-3 lg:order-1 lg:justify-center lg:mb-20 sm:mb-8">
+        <div className="w-full mr-6 flex order-2 justify-end gap-3 lg:order-1 lg:justify-center lg:mb-20 sm:mb-8">
           <img
             src="src\assets\Amber2.jpg"
             alt="hero-image"
