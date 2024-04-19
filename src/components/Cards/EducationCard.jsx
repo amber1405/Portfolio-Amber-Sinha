@@ -2,9 +2,9 @@ import React from "react";
 
 const EducationCard = ({ education }) => {
   return (
-    <div className="w-[650px] border rounded-lg shadow-sm p-3 justify-between relative overflow-hidden flex flex-col gap-3 transition duration-300 ease-in-out hover:-translate-y-1 border-solid  shadow-purple-500 border-purple-500">
+    <div className="w-[650px] border rounded-lg shadow-sm p-3 justify-between relative overflow-hidden flex flex-col gap-3 transition duration-300 ease-in-out hover:shadow-none hover:-translate-y-1 border-solid  shadow-purple-600 border-purple-500">
       <div className="w-full gap-3 flex">
-        <img className="h-12 bg-[#000] rounded-xl mt-1" src={education.img} />
+        <img className="h-12 w-12 bg-slate-300 p-1 rounded-xl mt-1" src={education.img} />
         <div className="text-lg font-semibold text-[#838894]">
           <div className="name">{education.school}</div>
           <div className="text-sm font-medium text-[#838894]">
