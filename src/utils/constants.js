@@ -1,4 +1,10 @@
-
+import CHAPERONE_IMG from '../images/Chaperone.jpg';
+import SIMON_GAME_IMG from '../images/Simon_Game.jpg';
+import INTERVIEW_CONNECT_IMG from '../images/InterviewConnect.jpg';
+import QUIZZY_IMG from '../images/Quizzy.jpg';
+import PROFILE_IMAGE from '../images/My-Image.jpg';
+import TODO_IMG from '../images/Todo.jpg';
+import WEATHER_API_IMG from '../images/Weather_API.jpg'
 
 export const Bio = {
   name: "Amber Sinha",
@@ -187,6 +193,142 @@ export const education = [
   },
 ];
 
+export const projects = [
+  {
+    id: 0,
+    title: "Chaperone",
+    date: "Oct 2023 - Dec 2023",
+    description:
+      `Chaperone is Plant Ecommerce website, allows user to buy Nursery's plant, rent Mali Service, Plant Day Care and many more service.
+       Worked key role as a Back End Developer to build REST APIs encompassing functionalities for purchasing plants, pots, plant daycare services, 
+       and renting gardening tools. Implemented secured Authentication and Authorization for enhanced security.`,
+    image: CHAPERONE_IMG,
+    tags: [
+      "Node Js",
+      "Express Js",
+      "React Js",
+      "MongoDb",
+      "Redux",
+      "HTML",
+      "CSS",
+    ],
+    member: [
+      {
+        name: "Satyam Kumar",
+        img: PROFILE_IMAGE,
+        linkedin: "https://www.linkedin.com/in/satyam-kumar-883190158/",
+        github: "https://github.com/satyamy846",
+      },
+      {
+        name: "Kunal Singh",
+        img: "https://media.licdn.com/dms/image/D4D03AQEC5xRavwpvSw/profile-displayphoto-shrink_800_800/0/1683832467140?e=1708560000&v=beta&t=7nLZcfHUogkftnu6HWtDk9YRaEXmYatwR_Y2mJqGXhQ",
+        linkedin: "https://www.linkedin.com/in/mavyakunal/",
+        github: "https://github.com/thekunalsingh",
+      },
+      {
+        name: "Vishal Yadav",
+        img: "https://media.licdn.com/dms/image/D5603AQGkc9J3Qu8oYQ/profile-displayphoto-shrink_800_800/0/1676644809081?e=1708560000&v=beta&t=VTtIiFciULGlqnkQuKdHDjUjJn4kU_kdNkK6yUyQNTs",
+        linkedin: "https://www.linkedin.com/in/vishal-yadav-902774239/",
+        github: "https://github.com/VishhalYadav",
+      },
+    ],
+    category: "web app",
+    github: "https://github.com/thekunalsingh/Chaperone-backend",
+    webapp: "https://chaperoneplants.com/",
+  },
+  {
+    id: 1,
+    title: "InterviewConnect",
+    date: "May 2023 - July 2023",
+    description:`InterviewConnect is a collaborative project. The primary goal of this project is to 
+    offer a user-friendly platform where users can access a broad range of interview questions for different technologies and subjects.
+    Curated an extensive database of categorized technical interview questions (Web Development, Data Structures, Core Subjects)featuring 30+ subcategories and over 1300 questions.`,
+    image: INTERVIEW_CONNECT_IMG,
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    category: "web app",
+    github: "https://github.com/vivekkumar9919/InterviewConnect.git",
+    webapp: "https://interviewconnect.vercel.app/",
+    member: [
+      {
+        name: "Satyam Kumar",
+        img: PROFILE_IMAGE,
+        linkedin: "https://www.linkedin.com/in/satyam-kumar-883190158/",
+        github: "https://github.com/satyamy846",
+      },
+      {
+        name: "Vivek Kumar",
+        img: "https://media.licdn.com/dms/image/D4D03AQEQnSnP58RETQ/profile-displayphoto-shrink_800_800/0/1687760996422?e=1708560000&v=beta&t=6OtHVLc4VS5rhB9AgEjn9FYj5SFxmhLxg-AD_U_qX7Y",
+        linkedin: "https://www.linkedin.com/in/vivek-kumar-b974b61a6/",
+        github: "https://github.com/vivekkumar9919",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Quizzy",
+    date: "Jan 2023 - March 2023",
+    description:
+      `Online quiz is a platform where students can improve their learnings and keep them
+      consistent by attempting any desired quizzesavailable and can see their profiles as well.
+      Whereas on the other side Teachers have an access to perform all CRUD operations on quizzes 
+      and they can also see their profile detailsas well.`,
+    image: QUIZZY_IMG,
+    tags: [
+      "Vue Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    category: "web app",
+    github: "https://github.com/satyamy846/Quizzy",
+    webapp: "https://quizzyy.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Simon Game",
+    date: "Jan 2022 - Jan 2022",
+    description:
+      `This game challenges players to repeat a pattern of button presses in the correct order.This Game is built using HTML
+       for the overall structure of the web page, CSS for the styling and layout, and JavaScript for the interactivity and game logic. 
+       The game will use JavaScript to handle user input and generate the game's pattern of button presses, the pattern will come with 
+       the help of Math.random function in Js. The game will also use JavaScript to play the corresponding sound effects when the buttons 
+       are pressed. There would be two arrays that'll compare the color pattern, the point at which pattern doesn't match,the game will end.`,
+    image: SIMON_GAME_IMG,
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "Game",
+    github: "",
+    webapp: "https://simon-game-zeta-three.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Todo List",
+    date: "March 2022 - March 2022",
+    description:
+      `Implemented Todo list with react to store the list of items. Where user can add, update and remove items from the list.`,
+    image: TODO_IMG,
+    tags: ["HTML", "CSS", "Javascript", "ReactJS"],
+    category: "web app",
+    github: "https://github.com/satyamy846/TodoApp",
+    webapp: "https://todo-app-gules-chi.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Weather API",
+    date: "March 2022 - March 2021",
+    description:
+      `Implemented to fetch realtime weather api report using react. Utilised open weather api to fecth the current weather details, 
+      when user opens this web app will be asked to allow access to current location so this app will show current location of the particular
+      user. Utilised google navigator and localstorage to store the weather details.`,
+    image: WEATHER_API_IMG,
+    tags: ["HTML", "CSS", "Javascript", "ReactJS"],
+    category: "web app",
+    github: "https://github.com/satyamy846/WeatherAPI",
+    webapp: "https://weather-kb1htdjjw-satyamy846.vercel.app/",
+  },
+];
 
 
 // export const TimeLineData = [
