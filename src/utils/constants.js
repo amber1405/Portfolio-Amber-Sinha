@@ -1,10 +1,10 @@
-import CHAPERONE_IMG from '../images/Chaperone.jpg';
-import SIMON_GAME_IMG from '../images/Simon_Game.jpg';
-import INTERVIEW_CONNECT_IMG from '../images/InterviewConnect.jpg';
-import QUIZZY_IMG from '../images/Quizzy.jpg';
-import PROFILE_IMAGE from '../images/My-Image.jpg';
-import TODO_IMG from '../images/Todo.jpg';
-import WEATHER_API_IMG from '../images/Weather_API.jpg'
+import FOOD_EXPRESS from "../images/FoodExpress.png";
+import STUDY_NOTION from "../images/StudyNotion.png";
+import MUSIC_PLAYER from "../images/MusicPlayer.png";
+import QUIZZY_IMG from "../images/Quizzy.jpg";
+import PROFILE_IMAGE from "../images/Amber2.jpg";
+import RAZORPAY from "../images/Razorpay.png";
+// import WEATHER_API_IMG from "../images/Weather_API.jpg";
 
 export const Bio = {
   name: "Amber Sinha",
@@ -16,12 +16,12 @@ export const Bio = {
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/satyamy846",
+  github: "https://github.com/amber1405",
   resume:
     "https://drive.google.com/file/d/1ONVfL7do6DojtE-sFmvANreNMSh6E3ig/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/satyam-kumar-883190158/",
   leetcode: "https://leetcode.com/satyamy846/",
-  twitter: "https://twitter.com/SatyamK79279318"
+  twitter: "https://twitter.com/SatyamK79279318",
 };
 
 export const skills = [
@@ -93,7 +93,8 @@ export const skills = [
     skills: [
       {
         name: "C++",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/459px-ISO_C%2B%2B_Logo.svg.png"
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/459px-ISO_C%2B%2B_Logo.svg.png",
       },
 
       {
@@ -139,7 +140,7 @@ export const experiences = [
       "xUnit",
       "Git",
       "Github",
-      "JIRA"
+      "JIRA",
     ],
   },
   // {
@@ -196,40 +197,17 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Chaperone",
-    date: "Oct 2023 - Dec 2023",
-    description:
-      `Chaperone is Plant Ecommerce website, allows user to buy Nursery's plant, rent Mali Service, Plant Day Care and many more service.
-       Worked key role as a Back End Developer to build REST APIs encompassing functionalities for purchasing plants, pots, plant daycare services, 
-       and renting gardening tools. Implemented secured Authentication and Authorization for enhanced security.`,
-    image: CHAPERONE_IMG,
-    tags: [
-      "Node Js",
-      "Express Js",
-      "React Js",
-      "MongoDb",
-      "Redux",
-      "HTML",
-      "CSS",
-    ],
+    title: "Food Express",
+    date: "April 2024 - Present",
+    description: `Food Express is Food food ordering platform that utilizes the Swiggy API, a well-known food ordering platform, to provide users with a seamless experience of discovering, ordering, and enjoying delicious meals from various restaurants and eateries. The platform blends culinary expertise and technology to make food ordering a convenient and enjoyable experience for users. With a sleek and user-friendly interface, browsing menus and placing orders is a breeze.`,
+    image: FOOD_EXPRESS,
+    tags: ["React Js", "Redux", "Tailwind CSS"],
     member: [
       {
-        name: "Satyam Kumar",
+        name: "Amber Sinha",
         img: PROFILE_IMAGE,
-        linkedin: "https://www.linkedin.com/in/satyam-kumar-883190158/",
-        github: "https://github.com/satyamy846",
-      },
-      {
-        name: "Kunal Singh",
-        img: "https://media.licdn.com/dms/image/D4D03AQEC5xRavwpvSw/profile-displayphoto-shrink_800_800/0/1683832467140?e=1708560000&v=beta&t=7nLZcfHUogkftnu6HWtDk9YRaEXmYatwR_Y2mJqGXhQ",
-        linkedin: "https://www.linkedin.com/in/mavyakunal/",
-        github: "https://github.com/thekunalsingh",
-      },
-      {
-        name: "Vishal Yadav",
-        img: "https://media.licdn.com/dms/image/D5603AQGkc9J3Qu8oYQ/profile-displayphoto-shrink_800_800/0/1676644809081?e=1708560000&v=beta&t=VTtIiFciULGlqnkQuKdHDjUjJn4kU_kdNkK6yUyQNTs",
-        linkedin: "https://www.linkedin.com/in/vishal-yadav-902774239/",
-        github: "https://github.com/VishhalYadav",
+        linkedin: "https://www.linkedin.com/in/amber-sinha-749238224",
+        github: "https://github.com/amber1405",
       },
     ],
     category: "web app",
@@ -238,19 +216,19 @@ export const projects = [
   },
   {
     id: 1,
-    title: "InterviewConnect",
+    title: "Study Notion",
     date: "May 2023 - July 2023",
-    description:`InterviewConnect is a collaborative project. The primary goal of this project is to 
-    offer a user-friendly platform where users can access a broad range of interview questions for different technologies and subjects.
-    Curated an extensive database of categorized technical interview questions (Web Development, Data Structures, Core Subjects)featuring 30+ subcategories and over 1300 questions.`,
-    image: INTERVIEW_CONNECT_IMG,
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    description: `StudyNotion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS. StudyNotion aims to provide:
+    A seamless and interactive learning experience for students, making education more accessible and engaging.
+    A platform for instructors to showcase their expertise and connect with learners across the globe.`,
+    image: STUDY_NOTION,
+    tags: ["MongoDb", "Express Js", "Node Js", "React Js", "Redux"],
     category: "web app",
     github: "https://github.com/vivekkumar9919/InterviewConnect.git",
     webapp: "https://interviewconnect.vercel.app/",
     member: [
       {
-        name: "Satyam Kumar",
+        name: "Amber Sinha",
         img: PROFILE_IMAGE,
         linkedin: "https://www.linkedin.com/in/satyam-kumar-883190158/",
         github: "https://github.com/satyamy846",
@@ -267,8 +245,7 @@ export const projects = [
     id: 2,
     title: "Quizzy",
     date: "Jan 2023 - March 2023",
-    description:
-      `Online quiz is a platform where students can improve their learnings and keep them
+    description: `Online quiz is a platform where students can improve their learnings and keep them
       consistent by attempting any desired quizzesavailable and can see their profiles as well.
       Whereas on the other side Teachers have an access to perform all CRUD operations on quizzes 
       and they can also see their profile detailsas well.`,
@@ -280,7 +257,7 @@ export const projects = [
       "Express Js",
       "HTML",
       "CSS",
-      "Bootstrap"
+      "Bootstrap",
     ],
     category: "web app",
     github: "https://github.com/satyamy846/Quizzy",
@@ -288,15 +265,14 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Simon Game",
+    title: "Razorpay",
     date: "Jan 2022 - Jan 2022",
-    description:
-      `This game challenges players to repeat a pattern of button presses in the correct order.This Game is built using HTML
+    description: `This game challenges players to repeat a pattern of button presses in the correct order.This Game is built using HTML
        for the overall structure of the web page, CSS for the styling and layout, and JavaScript for the interactivity and game logic. 
        The game will use JavaScript to handle user input and generate the game's pattern of button presses, the pattern will come with 
        the help of Math.random function in Js. The game will also use JavaScript to play the corresponding sound effects when the buttons 
        are pressed. There would be two arrays that'll compare the color pattern, the point at which pattern doesn't match,the game will end.`,
-    image: SIMON_GAME_IMG,
+    image: RAZORPAY,
     tags: ["HTML", "CSS", "Javascript"],
     category: "Game",
     github: "",
@@ -304,32 +280,29 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Todo List",
+    title: "MUSIC PLAYER",
     date: "March 2022 - March 2022",
-    description:
-      `Implemented Todo list with react to store the list of items. Where user can add, update and remove items from the list.`,
-    image: TODO_IMG,
-    tags: ["HTML", "CSS", "Javascript", "ReactJS"],
+    description: `Implemented Todo list with react to store the list of items. Where user can add, update and remove items from the list.`,
+    image: MUSIC_PLAYER,
+    tags: ["HTML", "CSS"],
     category: "web app",
     github: "https://github.com/satyamy846/TodoApp",
     webapp: "https://todo-app-gules-chi.vercel.app/",
   },
-  {
-    id: 4,
-    title: "Weather API",
-    date: "March 2022 - March 2021",
-    description:
-      `Implemented to fetch realtime weather api report using react. Utilised open weather api to fecth the current weather details, 
-      when user opens this web app will be asked to allow access to current location so this app will show current location of the particular
-      user. Utilised google navigator and localstorage to store the weather details.`,
-    image: WEATHER_API_IMG,
-    tags: ["HTML", "CSS", "Javascript", "ReactJS"],
-    category: "web app",
-    github: "https://github.com/satyamy846/WeatherAPI",
-    webapp: "https://weather-kb1htdjjw-satyamy846.vercel.app/",
-  },
+  // {
+  //   id: 4,
+  //   title: "Weather API",
+  //   date: "March 2022 - March 2021",
+  //   description: `Implemented to fetch realtime weather api report using react. Utilised open weather api to fecth the current weather details,
+  //     when user opens this web app will be asked to allow access to current location so this app will show current location of the particular
+  //     user. Utilised google navigator and localstorage to store the weather details.`,
+  //   image: WEATHER_API_IMG,
+  //   tags: ["HTML", "CSS", "Javascript", "ReactJS"],
+  //   category: "web app",
+  //   github: "https://github.com/satyamy846/WeatherAPI",
+  //   webapp: "https://weather-kb1htdjjw-satyamy846.vercel.app/",
+  // },
 ];
-
 
 // export const TimeLineData = [
 //   { year: 2017, text: "Started my journey" },
